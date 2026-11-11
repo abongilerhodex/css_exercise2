@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="gallery-header">
+    <h1>Photo Gallery</h1>
+    <p>Filter by category to explore</p>
+  </header>
+
+  <main class="gallery-container">
+
+    <input type="radio" name="filter" id="filter-all" checked>
+    <input type="radio" name="filter" id="filter-landscapes">
+    <input type="radio" name="filter" id="filter-portraits">
+    <input type="radio" name="filter" id="filter-architecture">
+
+    <div class="filter-buttons">
+      <label for="filter-all" class="filter-btn">All</label>
+      <label for="filter-landscapes" class="filter-btn">Landscapes</label>
+      <label for="filter-portraits" class="filter-btn">Portraits</label>
+      <label for="filter-architecture" class="filter-btn">Architecture</label>
+    </div>
+
+
+    <section class="gallery-grid">
+      <article class="card" data-category="landscapes">
+        <div class="card-media">
+          <img src="images/landscape.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Dope view</h2>
+          <span class="card-tag">Landscapes</span>
+        </div>
+        <div><p>Dope sunset</p></div>
+      </article>
+
+      <article class="card" data-category="portraits">
+        <div class="card-media">
+          <img src="images/shawty.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Lethal facecard</h2>
+          <span class="card-tag">Portraits</span>
+        </div>
+        <div><p>Proffessional Portrait</p></div>
+      </article>
+
+      <article class="card" data-category="architecture">
+        <div class="card-media">
+          <img src="images/uwc.jpg">
+          <div class="card-overlay">
+          </div>
+          <div><p></p></div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Peak design</h2>
+          <span class="card-tag">Architecture</span>
+        </div>
+        <div><p>Building with a nice design</p></div>
+      </article>
+
+      <article class="card" data-category="landscapes">
+        <div class="card-media">
+          <img src="images/landscape2.jpg">
+          <div class="card-overlay">
+          </div>
+          </div>
+        <div class="card-info">
+          <h2 class="card-title">Awesome</h2>
+          <span class="card-tag">Landscapes</span>
+        </div>
+        <div><p>River running along a valley </p></div>
+      </article>
+
+      <article class="card" data-category="portraits">
+        <div class="card-media">
+          <img src="images/shawty2.jpg">
+          <div class="card-overlay">
+          </div>
+          </div>
+        <div class="card-info">
+          <h2 class="card-title">Cutie patootie
+          </h2>
+          <span class="card-tag">Portraits</span>
+        </div>
+        <div><p>Gorgeous woman</p></div>
+      </article>
+
+      <article class="card" data-category="architecture">
+        <div class="card-media">
+          <img src="images/ucw2.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Another building</h2>
+          <span class="card-tag">Architecture</span>
+        </div>
+        <div><p>University campus</p></div>
+      </article>
+
+      <article class="card" data-category="landscapes">
+        <div class="card-media">
+          <img src="images/landscape3.jpg">
+          <div class="card-overlay">
+          </div>
+          </div>
+        <div class="card-info">
+          <h2 class="card-title">Mid design</h2>
+          <span class="card-tag">Landscapes</span>
+        </div>
+        <div><p>Foggy valley</p></div>
+      </article>
+
+      <article class="card" data-category="portraits">
+        <div class="card-media">
+          <img src="images/shawty3.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Lovely</h2>
+          <span class="card-tag">Portraits</span>
+        </div>
+        <div><p>Woman and a flower</p></div>
+      </article>
+
+      <article class="card" data-category="architecture">
+        <div class="card-media">
+          <img src="images/uwc3.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Decent</h2>
+          <span class="card-tag">Architecture</span>
+        </div>
+        <div><p>University hall</p></div>
+      </article>
+
+      <article class="card" data-category="landscapes">
+        <div class="card-media">
+          <img src="images/landscape4.jpg">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Behold: Aura </h2>
+          <span class="card-tag">Landscapes</span>
+        </div>
+        <div><p>Dam near a valley</p></div>
+      </article>
+
+      <article class="card" data-category="portraits">
+        <div class="card-media">
+          <img src="images/IMG_8057.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Charming</h2>
+          <span class="card-tag">Portraits</span>
+        </div>
+        <div><p> The Goat</p></div>
+      </article>
+
+      <article class="card" data-category="architecture">
+        <div class="card-media">
+          <img src="images/uwc4.jpg">
+          <div class="card-overlay">
+          </div>
+        </div>
+        <div class="card-info">
+          <h2 class="card-title">Nice</h2>
+          <span class="card-tag">Architecture</span>
+        </div>
+        <div><p> Exterior of a University campus</p></div>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
